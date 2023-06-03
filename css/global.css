@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #F2F2F2;
+  --red: #C1272D;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: "Montserrat-Regular";
+  margin: 0;
+}
+
+header .links-nav {
+  align-items: center;
+}
+
+header .navbar-mobile {
+  display: none !important;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 0 0;
+}
+
+header li a {
+  color: var(--black);
+  text-decoration: none;
+  font-family: "Montserrat-Regular";
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+header li a.active {
+  font-family: "Montserrat-Bold";
+}
+
+header .navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+header .navbar-brand {
+  padding: 0px;
+}
+
+header .navbar {
+  padding-bottom: 20px;
+}
+
+header .navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  align-items: center;
+}
+
+header .navbar-right {
+  gap: 15px;
+  padding: 0;
+}
+
+header .navbar-left {
+  gap: 15px;
+  padding: 0;
+}
+
+header p {
+  margin: 0;
+  color: #000;
+  font-size: 14px;
+}
+
+
+header .toggleCurrency {
+  gap: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 35px;
+  padding: 10px;
+}
+
+header .toggleCurrency img.us-flag {
+  width: 23px;
+}
+
+header .toggleCurrency img.down-icon {
+  width: 10px;
+}
+
+header .navbar-expand-xl .navbar-collapse {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+header .sticky {
+  background-color: var(--gray);
+  padding: 15px;
+}
+
+header .sticky .d-flex {
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+header .sticky img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  padding: 80px 40px 50px;
+  background-color: var(--white);
+}
+
+
+footer .socialMedia .socmedIcon,
+footer .paymentIcon {
+  display: flex;
+  gap: 10px;
+}
+
+footer .socialMedia .socmedIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+footer .paymentIcon img {
+  width: 50px;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li a,
+footer .copyright a {
+  color: var(--black);
+  font-size: 14px;
+  font-family: "Montserrat-Regular";
+  text-decoration: none;
+}
+
+footer h6 {
+  font-family: "Montserrat-SemiBold";
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+footer .socialMedia {
+  margin-bottom: 20px;
+}
+
+footer .footerLinks {
+  margin-bottom: 30px;
+}
+
+footer .copyright {
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1199px) {
+
+  /* .navbar>.container-fluid {
+    justify-content: flex-end;
+  } */
+  header .nav-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header .navbar-expand-xl .navbar-collapse {
+    padding: 10px 0;
+  }
+
+  .navbar-toggler-icon {
+    background: url("../images/hamburger-black.png")no-repeat center center/contain !important;
+  }
+
+  header ul.navbar-left,
+  header ul.navbar-right {
+    display: none !important;
+  }
+
+  header ul.navbar-mobile {
+    display: flex !important;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  header .navbar-brand {
+    transform: unset;
+    left: unset;
+    position: relative;
+  }
+
+  header .navbar-brand>img {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  header .sticky .d-flex {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 40px 40px 50px;
+  }
+
+  footer .copyright {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer .row,
+  footer .socialMedia .socmedIcon,
+  footer .paymentIcon {
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer .socialMedia,
+  footer .paymentCards {
+    text-align: center;
+  }
+
+}

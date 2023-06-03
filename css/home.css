@@ -1,0 +1,600 @@
+/* home_hero */
+.home_hero .carousel-control-next-icon,
+.home_hero .carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.home_hero .carousel-item {
+  position: relative;
+}
+
+.home_hero .hero_content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home_hero .cta {
+  text-align: center;
+}
+
+.home_hero .cta_white {
+  padding: 25px 60px;
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold";
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home_hero .cta_white:hover {
+  background-color: var(--black);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+/* home_hero */
+
+/* home_wideDeals */
+.home_wideDeals {
+  padding: 40px;
+}
+
+.home_wideDeals p {
+  margin-bottom: -10px;
+  font-size: 32px;
+  font-family: "Montserrat-Bold";
+}
+
+.home_wideDeals span {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.home_wideDeals span.off {
+  font-size: 18px;
+}
+
+.home_wideDeals .row {
+  align-items: center;
+}
+
+.home_wideDeals .cta_black {
+  padding: 20px 50px;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat-SemiBold";
+  transition: background-color 0.3s;
+}
+
+.home_wideDeals .cta_black:hover {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  color: var(--black);
+}
+
+/* home_wideDeals */
+
+/* home_freeShipping */
+.home_freeShipping {
+  background-image: url("../images/VIP\ Exclusive.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 40px;
+  color: var(--white);
+}
+
+.home_freeShipping .cta {
+  text-align: center;
+}
+
+.home_freeShipping .cta_white {
+  padding: 15px 20px;
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold";
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home_freeShipping .cta_white:hover {
+  background-color: var(--black);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.home_freeShipping h2 {
+  font-family: "Montserrat-Bold";
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.home_freeShipping p {
+  font-size: 18px;
+  font-family: "Montserrat-SemiBold";
+  text-transform: uppercase;
+}
+
+.home_freeShipping .row {
+  align-items: center;
+}
+
+/* home_freeShipping */
+
+/* home_nowTrending */
+.home_nowTrending {
+  padding: 80px 0;
+}
+
+.home_nowTrending .featured {
+  text-align: center;
+}
+
+.home_nowTrending h2 {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home_nowTrending p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.home_nowTrending h3 {
+  font-size: 24px;
+  font-family: "Montserrat-SemiBold";
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.home_nowTrending .row>* {
+  margin-bottom: 30px;
+}
+
+.home_nowTrending .trends .d-flex {
+  justify-content: center;
+  gap: 50px;
+}
+
+.home_nowTrending .trends p {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-family: "Montserrat-SemiBold";
+}
+
+/* home_nowTrending */
+
+/* home_newArrivals */
+.home_newArrivals {
+  background-image: url("../images/new-arrivals-bg-2-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.home_newArrivals .cta_white {
+  padding: 15px 20px;
+  background-color: var(--white);
+  color: var(--black);
+  text-decoration: none;
+  height: 370px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold";
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home_newArrivals .cta_white:hover {
+  background-color: var(--black);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.home_newArrivals h2 {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 86px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.home_newArrivals h3 {
+  font-family: "Montserrat-SemiBold";
+  font-size: 28px;
+  color: var(--white);
+  text-transform: uppercase;
+  margin: 30px 0 40px;
+}
+
+.home_newArrivals img.img-mobile {
+  display: none;
+}
+
+/* home_newArrivals */
+
+/* home_recentlyBought */
+.home_recentlyBought {
+  padding: 80px 40px;
+}
+
+.home_recentlyBought .price {
+  display: flex;
+  gap: 10px;
+}
+
+.home_recentlyBought h2 {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.home_recentlyBought .card img {
+  object-fit: cover;
+}
+
+.home_recentlyBought .card {
+  border: 0;
+  height: 100%;
+}
+
+.home_recentlyBought .card-body p:first-child {
+  font-family: "Montserrat-Regular";
+}
+
+.home_recentlyBought .card .price p {
+  color: var(--black);
+  font-size: 14px;
+  font-family: "Montserrat-SemiBold";
+}
+
+.home_recentlyBought span.red {
+  font-family: "Montserrat-ExtraBold";
+  color: var(--red);
+}
+
+.home_recentlyBought .card-body {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  flex-direction: column;
+}
+
+/* home_recentlyBought */
+
+/* home_yourNextInspo */
+
+.home_yourNextInspo {
+  background-color: var(--gray);
+  padding: 80px 40px;
+}
+
+.home_yourNextInspo .featured {
+  text-align: center;
+}
+
+.home_yourNextInspo h2 {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home_yourNextInspo p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.home_yourNextInspo .cta_black {
+  padding: 20px 50px;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat-SemiBold";
+  transition: background-color 0.3s;
+}
+
+.home_yourNextInspo .cta_black:hover {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  color: var(--black);
+}
+
+.home_yourNextInspo .cta {
+  text-align: center;
+  margin: 50px 0 0;
+}
+
+/* home_yourNextInspo */
+
+/* home_signUpEmail */
+.home_signUpEmail {
+  padding: 30px 80px;
+  background-color: var(--black);
+}
+
+.home_signUpEmail h2 {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "Montserrat-ExtraBold";
+  margin: 0;
+}
+
+.home_signUpEmail .email-input {
+  width: 100%;
+  max-width: 600px;
+}
+
+.home_signUpEmail .email-input input.form-control {
+  border-radius: 0px;
+  padding: 10px;
+  border: 0;
+  background-color: var(--gray);
+  font-family: "Montserrat-Regular";
+}
+
+.home_signUpEmail .d-flex {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home_signUpEmail .input-group-text {
+  border-radius: 0px;
+  padding: 15px;
+  border: 0;
+  background-color: #fff;
+}
+
+/* home_signUpEmail */
+
+
+/* Responsiveness */
+@media screen and (max-width: 1440px) {
+  h2 {
+    font-size: 25px;
+  }
+
+  .home_wideDeals .cta_black {
+    padding: 20px 25px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .home_wideDeals .cta_black {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .home_wideDeals .cta_black {
+    font-size: 14px;
+  }
+
+  .home_wideDeals .cta_black {
+    padding: 15px 15px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .home_signUpEmail .email-input {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .home_nowTrending .trends .d-flex {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home_newArrivals {
+    padding: 30px 0;
+  }
+
+  .home_newArrivals h2 {
+    font-size: 50px;
+  }
+
+  .home_newArrivals h3 {
+    margin: 15px 0 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home_nowTrending h3 {
+    font-size: 20px;
+  }
+
+  .home_hero .cta_white {
+    padding: 20px 40px;
+  }
+
+  .wideDeals_content {
+    margin-bottom: 20px;
+  }
+
+  .home_wideDeals .cta_black {
+    padding: 15px 15px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .home_nowTrending .row,
+  .home_recentlyBought .row,
+  .home_yourNextInspo .row {
+    justify-content: center;
+  }
+
+  .home_recentlyBought .row>*,
+  .home_yourNextInspo .row>* {
+    margin-bottom: 20px;
+  }
+
+  .home_newArrivals h2 {
+    font-size: 30px;
+  }
+
+  .home_newArrivals h3 {
+    font-size: 18px;
+  }
+
+  .home_newArrivals {
+    padding: 60px 0;
+  }
+
+  .home_recentlyBought .card-body {
+    justify-content: start;
+  }
+
+  .home_nowTrending .trends .d-flex {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .home_nowTrending .trends p {
+    margin-bottom: 10px;
+  }
+
+  .home_signUpEmail .d-flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .home_hero .cta_white {
+    font-size: 20px;
+  }
+
+  .home_signUpEmail .email-input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .home_freeShipping .cta {
+    margin-top: 30px;
+  }
+
+  .home_freeShipping .cta_white {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .wideDeals_content .row {
+    justify-content: center;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .home_hero .cta_white {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .home_wideDeals span.off {
+    font-size: 12px;
+  }
+
+  .home_nowTrending {
+    padding: 30px 0;
+  }
+
+  .home_wideDeals {
+    padding: 30px;
+  }
+
+  .home_freeShipping {
+    padding: 30px 15px;
+  }
+
+  .home_newArrivals {
+    background-image: url("../images/new-arrivals-bg-min.jpg");
+  }
+
+  .home_newArrivals img.img-mobile {
+    display: block;
+  }
+
+  .home_newArrivals .row {
+    flex-direction: column-reverse;
+  }
+
+  .home_newArrivals {
+    padding: 30px 0 0;
+  }
+
+  .home_newArrivals .cta {
+    margin-bottom: 30px;
+  }
+
+  .home_signUpEmail {
+    padding: 30px 15px;
+  }
+
+  .home_nowTrending .row>* {
+    margin-bottom: 0px;
+  }
+
+  .home_hero img.img-content {
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .home_nowTrending h3 {
+    font-size: 15px;
+  }
+
+  .home_freeShipping h2,
+  .home_signUpEmail h2 {
+    text-align: center;
+  }
+
+  .home_freeShipping p {
+    font-size: 12px;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 22px !important;
+  }
+
+  .home_freeShipping .cta {
+    margin-top: 0;
+  }
+
+  .home_recentlyBought,
+  .home_yourNextInspo {
+    padding: 40px 15px;
+  }
+
+  .home_hero img.w-100 {
+    height: 250px;
+    object-fit: cover;
+  }
+
+}
